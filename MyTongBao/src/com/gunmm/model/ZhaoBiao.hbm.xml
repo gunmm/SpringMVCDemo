@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2018-3-22 15:50:20 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.gunmm.model.ZhaoBiao" table="ZHAOBIAO">
+        <id name="id" type="int">
+            <column name="ID" />
+            <generator class="native" />
+        </id>
+        <property name="publishId" type="java.lang.String">
+            <column name="PUBLISHID" />
+        </property>
+        <property name="userId" type="java.lang.String">
+            <column name="USERID" />
+        </property>
+        <property name="goodsName" type="java.lang.String">
+            <column name="GOODSNAME" />
+        </property>
+        <property name="price" type="java.lang.String">
+            <column name="PRICE" />
+        </property>
+        <property name="contact" type="java.lang.String">
+            <column name="CONTACT" />
+        </property>
+        <property name="phone" type="java.lang.String">
+            <column name="PHONE" />
+        </property>
+        <property name="endAt" type="java.util.Date">
+            <column name="ENDAT" />
+        </property>
+        <property name="createTime" type="java.util.Date">
+            <column name="CREATETIME" />
+        </property>
+        <property name="content" type="java.lang.String">
+            <column name="CONTENT" />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2018-3-22 15:50:20 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.gunmm.model.User" table="USER">
+        <id name="id" type="java.lang.Integer">
+            <column name="ID" />
+            <generator class="native" />
+        </id>
+        <property name="userId" type="java.lang.String">
+            <column name="USERID" />
+        </property>
+        <property name="userName" type="java.lang.String">
+            <column name="USERNAME" />
+        </property>
+        <property name="password" type="java.lang.String">
+            <column name="PASSWORD" />
+        </property>
+        <property name="phone" type="java.lang.String">
+            <column name="PHONE" />
+        </property>
+        <property name="createTime" type="java.util.Date">
+            <column name="CREATETIME" />
+        </property>
+    </class>
+</hibernate-mapping>
